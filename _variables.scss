@@ -1,0 +1,27 @@
+$screen-tablet: 768px;
+$screen-desktop-large: 1300px;
+
+$space-s: 10px;
+$space-m: 30px;
+$space-l: 40px;
+
+$r-breakpoints: (
+    medium: $screen-tablet,
+    large: $screen-desktop-large
+);
+
+$mp-default: (
+    null  : $space-s,
+    medium: $space-m,
+    large : $space-l
+);
+
+$fs-default: (
+    null  : 24px,
+    medium: 14px
+);
+
+$width-default: (
+    null  : 100%,
+    medium: auto
+);
