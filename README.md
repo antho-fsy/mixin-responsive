@@ -29,7 +29,7 @@ a simple demo here : https://codepen.io/antho-fsy/pen/xMmjRb
 
 ## Variables 
 
-```sass
+```scss
 $screen-tablet: 768px;
 $screen-desktop-large: 1300px;
 
@@ -61,7 +61,7 @@ $width-default: (
 
 ## Example
 
-```css
+```scss
 .bloc {
   display: inline-block;
   background-color: #243145;
@@ -79,7 +79,7 @@ $width-default: (
 
 ## Output example
 
-```html
+```css
 .bloc {
   display: inline-block;
   background-color: #243145;
