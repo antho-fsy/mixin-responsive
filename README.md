@@ -9,7 +9,7 @@ a simple demo here : https://codepen.io/antho-fsy/pen/xMmjRb
 
 ## Mixin
 
-```scss
+```sass
 @mixin responsive($property, $r-map, $r-breakpoints: $r-breakpoints) {
     @each $r-breakpoint, $r-space in $r-map {
         @if $r-breakpoint == null {
@@ -29,7 +29,7 @@ a simple demo here : https://codepen.io/antho-fsy/pen/xMmjRb
 
 ## Variables 
 
-```scss
+```sass
 $screen-tablet: 768px;
 $screen-desktop-large: 1300px;
 
@@ -61,7 +61,7 @@ $width-default: (
 
 ## Example
 
-```scss
+```sass
 .bloc {
   display: inline-block;
   background-color: #243145;
