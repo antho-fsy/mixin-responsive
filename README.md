@@ -11,16 +11,16 @@ a simple demo here : https://codepen.io/antho-fsy/pen/xMmjRb
 
 ```sass
 @mixin responsive($property, $r-map, $r-breakpoints: $r-breakpoints) {
-    @each $r-breakpoint, $r-space in $r-map {
+    @each $r-breakpoint, $r-size in $r-map {
         @if $r-breakpoint == null {
-            #{$property}: $r-space;
+            #{$property}: $r-size;
         }
         @else {
             @if map-has-key($r-breakpoints, $r-breakpoint) {
                 $r-breakpoint: map-get($r-breakpoints, $r-breakpoint);
             }
             @media screen and (min-width: $r-breakpoint) {
-                 #{$property}: $r-space;
+                 #{$property}: $r-size;
             }
         }
     }
