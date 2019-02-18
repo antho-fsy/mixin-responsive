@@ -1,0 +1,16 @@
+@import
+  'helpers/variables',
+  'helpers/mixins';
+
+.bloc {
+  display: inline-block;
+  background-color: #243145;
+  @include responsive(width, $width-default);
+  .bloc02 {
+    background-color: #ff4848;
+    @include responsive(margin, $mp-default);
+    @include responsive(padding, $mp-default);
+    @include responsive(font-size, $fs-default);
+    transition: .3s;
+  }
+}
